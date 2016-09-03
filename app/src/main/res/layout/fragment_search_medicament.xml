@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.SearchMedicament.SearchMedicament">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee">
+        <TextView
+            android:id="@+id/no_item_found"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/no_item_found"/>
+        <android.support.v7.widget.RecyclerView
+            android:scrollbarThumbVertical="@drawable/sb_shape"
+            android:fastScrollAlwaysVisible="true"
+            android:fastScrollEnabled="true"
+            android:id="@+id/search_medicament_list"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+
+
+
+
+</FrameLayout>

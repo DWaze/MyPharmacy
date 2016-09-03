@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="mPharmacien">موظفو صيدليتي</string>
+	<string name="mPharmacie">صيدليتي</string>
+	<string name="mParametre">خيارات</string>
+	<string name="title_activity_home_fragment">جزء الصفحة الرئيسية</string>
+	<string name="confirm_dialog">تأكيد</string>
+	<string name="title_activity_ma_pharmacie">صيدليتي</string>
+	<string name="title_activity_maps">خريطة</string>
+	<string name="app_name">صيدليتي</string>
+	<string name="action_settings">إعدادات</string>
+	<string name="title_activity_login">تسجيل الدخول</string>
+	<string name="Welcome">مرحبا بكم في تطبيق صيدليتي</string>
+	<string name="select_type">حدد نوع المستخدم للدخول أو التسجيل</string>
+	<string name="create_acc">إنشاء حساب</string>
+	<string name="acc_user">إنشاء حساب زبون</string>
+	<string name="acc_phrma">انشاء حساب صيدلي</string>
+	<string name="title_activity_user_nav">زبون</string>
+	<string name="navigation_drawer_open">درج الملاحة المفتوحة</string>
+	<string name="navigation_drawer_close">درج إغلاق الملاحة</string>
+	<string name="title_activity_create_account">اضافة حساب</string>
+	<string name="title_activity_new_account">حساب جديد</string>
+	<string name="hello_blank_fragment">مرحبا الجزء الرئيسي</string>
+	<string name="searchPharmacy">بحث عن صيدلية</string>
+	<string name="AddMed">إضافة دواء</string>
+	<string name="searchMedicament">بحث عن دواء</string>
+	<string name="lng">لغة التطبيق</string>
+	<string name="confirm">تأكيد</string>
+	<string name="En">English</string>
+	<string name="Fr">Français</string>
+	<string name="Ar">العربية</string>
+	<string name="user_name">اسم المستخدم</string>
+	<string name="password">كلمة المرور</string>
+	<string name="et_name">الاسم</string>
+	<string name="et_surname">اللقب</string>
+	<string name="conf_pass">تأكيد كلمة المرور</string>
+	<string name="email">البريد الإلكتروني</string>
+	<string name="radio_male">ذكر</string>
+	<string name="radio_female">أنثى</string>
+	<string name="gender">نوع الجنس</string>
+	<string name="date_of_birth">تاريخ الميلاد</string>
+	<string name="phone_num">رقم الهاتف</string>
+	<string name="home_address">عنوان المنزل</string>
+	<string name="login">تسجيل الدخول</string>
+	<string name="type_user">زبون</string>
+	<string name="type_pharmacist">صيدلي</string>
+	<string name="type_pemployee">موظف</string>
+	<string name="add_pharmacy">أضف الصيدلية الخاصة بك</string>
+	<string name="title_activity_set_phatmacy">خريطة</string>
+	<string name="pharmacy_title_item">الصيدلة:</string>
+	<string name="pharmacy_nearby">صيدلية مجاورة:</string>
+	<string name="Adress_title_item">العنوان:</string>
+	<string name="medicament_title_item">الدواء:</string>
+	<string name="dosage_title_item">الجرعة:</string>
+	<string name="title_activity_pharmacy_location">خريطة</string>
+	<string name="pharmacy_location">موقع الصيدلية</string>
+	<string name="pharm_name">اسم الصيدلية</string>
+	<string name="name_is_empty">الاسم فارغ!</string>
+	<string name="adress_is_empty">العنوان فارغ!</string>
+	<string name="pharmacy_store_code">رمز متجر الصيدلة</string>
+	<string name="Password_is_empty">كلمة المرور فارغة !</string>
+	<string name="Confirm_Password_is_empty">تأكيد كلمة المرور فارغ!</string>
+	<string name="Email_is_empty">البريد الإلكتروني فارغ!</string>
+	<string name="code_is_empty">رمز التأكيد فارغ !</string>
+	<string name="dateofbirth_is_empty">تاريخ الميلاد فارغ!</string>
+	<string name="birth_place_empty">مكان الولادة فارغ!</string>
+	<string name="HomeAdress_is_empty">عنوان المنزل فارغ!</string>
+	<string name="storeCode_is_empty">رمز متجر صيدلية فارغ!</string>
+	<string name="Phone_number_is_empty">رقم الهاتف فارغ!</string>
+	<string name="pharmacy_map_error">تحتاج إلى إضافة الصيدلية الخاصة بك في الخريطة</string>
+	<string name="Confirm_password_error">تأكيد كلمة مرور فارغة أو لا تتطابق مع كلمة المرور</string>
+	<string name="Username_is_empty">اسم المستخدم فارغ!</string>
+	<string name="Surname_is_empty">اللقب فارغ!</string>
+	<string name="title_activity_employee_nav">الموضف</string>
+	<string name="medicament_name">اسم الدواء</string>
+	<string name="dosage_med">الجرعة</string>
+	<string name="age">العمر</string>
+	<string name="type_med">نوع الدواء</string>
+	<string name="med_name_is_empty">اسم الدواء فارغ</string>
+	<string name="dosage_is_empty">الجرعة فارغة</string>
+	<string name="age_title">العمر:</string>
+	<string name="type_title">النوع:</string>
+	<string name="storage_title">التخزين:</string>
+	<string name="title_activity_pharmasist_nav">صيدلي</string>
+	<string name="title_activity_ma_pharmacie_fragment">مافارماسيفراجمينت</string>
+	<string name="modif_stock">تعديل مخزون الدواء</string>
+	<string name="my_employees">موظفو صيدليتي</string>
+	<string name="title_activity_my__pharmacy">My_Pharmacy</string>
+	<string name="add_employee">إضافة موظف</string>
+	<string name="emp_id_hint">رقم الموظف</string>
+	<string name="Detaille">معلومات</string>
+	<string name="NEmplyee">موظف جديد</string>
+	<string name="message_active">سيتم تغعيل الحساب الخاص بك  قريبا</string>
+	<string name="work_time">وقت العمل المحدد</string>
+	<string name="from">من :</string>
+	<string name="addTiming">إضافة التوقيت</string>
+	<string name="pharmacy_timing">توقيت الصيدلة</string>
+	<string name="aviable_med">الأدوية المتوفرة:</string>
+	<string name="delete_pharmacy">حذف الصيدلة</string>
+	<string name="birth_place">البلد</string>
+	<string name="GPSAlertDialogMessage">رسالة التنبيه</string>
+	<string name="GPSAlertDialogTitle">حوار التنبيه</string>
+	<string name="permission_required_toast">تنشيط الإذن</string>
+	<string name="location_permission_denied">تنشيط الإذن</string>
+	<string name="permission_rationale_location">تنشيط الإذن</string>
+	<string name="current_state">الصيدلية الآن:</string>
+	<string name="closed">مغلقة</string>
+	<string name="Sunday">الأحد</string>
+	<string name="Monday">الاثنين</string>
+	<string name="Tuesday">الثلاثاء</string>
+	<string name="Wednesday">الأربعاء</string>
+	<string name="Thursday">الخميس</string>
+	<string name="Friday">الجمعة</string>
+	<string name="Saturday">السبت</string>
+	<string name="p_state">الصيدلية الآن :</string>
+	<string name="certification_id">رمز الشهادة</string>
+	<string name="MyProfile">ملف التعريف الخاص بي</string>
+	<string name="title_activity_profile">ملف التعريف</string>
+	<string name="old_password">كلمة المرور الحالية</string>
+	<string name="new_password">كلمة المرور الجديدة</string>
+	<string name="conf_new_pass">تأكيد كلمة المرور الجديدة</string>
+	<string name="country">البلد</string>
+	<string name="newpss">جديد؟</string>
+	<string name="x">إلغاء الأمر</string>
+	<string name="wrong_pass">كلمة مرور خاطئة!</string>
+	<string name="language">اللغة</string>
+	<string name="logout">تسجيل الخروج</string>
+	<string name="user_exist">اسم المستخدم موجود مسبقاً!</string>
+	<string name="forget_password">هل نسيت كلمة المرور؟</string>
+	<string name="reset_password">تجديد كلمة المرور</string>
+	<string name="send_confirmation_code">سيتم ارسال رمز التاكيد الى بريدك الالكتروني :</string>
+	<string name="next"> التالي ◀</string>
+	<string name="confirmation_code">رمز التأكيد</string>
+	<string name="step_1">الخطوة 1:</string>
+	<string name="step_2">الخطوة 2:</string>
+	<string name="step_3">الخطوة 3:</string>
+	<string name="set_your_new_password">أدخل كلمة المرور الجديدة:</string>
+	<string name="get_confirmation_code_from_your_email">احصل على رمز التأكيد من بريدك الالكتروني ، ثم ادخله:</string>
+	<string name="email_no_account">البريد الالكتروني لا يرتبط بأي حساب </string>
+	<string name="no_item_found">لم يتم العثور على شيء!</string>
+	<string name="add_new_employee">إضافة موظف جديد</string>
+	<string name="add">إضافة</string>
+	<string name="phone_row">الهاتف:</string>
+	<string name="name_row">الاسم:</string>
+	<string name="id_row">الرمز:</string>
+	<string name="usrname_row">اسم المستخدم:</string>
+	<string name="surname_row">اللقب:</string>
+	<string name="email_row">البريد الإلكتروني:</string>
+	<string name="homeadd_row">عنوان المنزل:</string>
+	<string name="id_diplome">رمز الدبلوما :</string>
+	<string name="you_want_delete_emp">هل تريد حقا حذف</string>
+	<string name="from_your_list">من قائمة الموظفين الخاصة بك؟</string>
+	<string name="wrng_pass">كلمة مرور خاطئة!</string>
+	<string name="parm_deleted_succ">تم حذف الصيدلية بنجاح</string>
+	<string name="emp_delet_succ">تم حذف الموظف بنجاح</string>
+	<string name="del_pharm_conf">هل تريد حقاً حذف الصيدلية الخاصة بك؟</string>
+	<string name="emp_gender">جنس الموظف :</string>
+	<string name="dir_gender">جنس  الصيدلي المدير:</string>
+	<string name="emp_id_empty">رقم الموظف فارغ</string>
+	<string name="emp_in_work"> هذاالموظف في العمل مسبقا!</string>
+	<string name="no_pharm_found">لم يتم ايجاد اي صيدلية !</string>
+	<string name="med_up_succ">تم تحديث مخزون الدواء بنجاح !</string>
+	<string name="med_up_unsucc">فشل تحديث مخزون الدواء</string>
+	<string name="email_used">البريد الإلكتروني موجود من قبل!</string>
+	<string name="pharm_succ">تم إنشاء صيدلية بنجاح !</string>
+	<string name="invalid_contact">العقد صيدلية غير صالح!</string>
+	<string name="acc_cret_succ">تم انشاء الحساب بنجاح !</string>
+	<string name="distance">المسافة (المركبات):</string>
+	<string name="duration">المدة:</string>
+	<string name="atleast_select_oneday">الرجاء تحديد يوم عمل على الأقل!</string>
+	<string name="director_pharmacist_info">معلومات الصيدلي المدير</string>
+	<string name="add_pharmacy_s_contract_id">أضف رمز ترخيص المتجر</string>
+	<string name="add_pharmacy_location">أضف موقع الصيدلة</string>
+	<string name="add_pharmacy_timing">أضف توقيت الصيدلة</string>
+	<string name="location_done">موقع صيدلية تمام</string>
+	<string name="timing_done">توقيت صيدلية تمام</string>
+	<string name="SERVER_ERROR">لا يمكن الاتصال بالخادم!!</string>
+	<string name="pharm_succ_created">تم إنشاء صيدلية بنجاح !</string>
+	<string name="suv_med">تم اضافة الدواء بنجاح</string>
+	<string name="u_hv_no_ph">ليس لديك صيدلية</string>
+	<string name="call_perm">للأسف لا يمكن القيام بمكالمة </string>
+	<string name="no_ph_please_wait">لم يتم ايجاد اي صيدلية ، الرجاء الانتظار!</string>
+	<string name="wait_conf_ph">الرجاءانتظار تأكيد الصيدلية جديدة!</string>
+	<string name="ph_no_valid">الصيدلية لم يتم تفعيلها حتى الآن!</string>
+	<string name="ph_no_exist">صيدلية غير موجودة!</string>
+	<string name="done">تمام !</string>
+	<string name="editlocationfab">اضفط على التعديل لتعديل الموقع</string>
+	<string name="ed_saved">تم حفظ التغيرات بنجاح</string>
+	<string name="no_ph_found_createone">لم يتم العثور على اي صيدلية، أنشء واحدة رجاءا !</string>
+	<string name="activ_location_service">الرجاء تفعيل خدمة الموقع الجغرافي</string>
+	<string name="fav_removed">تمت الازالة من قائمة المفضلة</string>
+	<string name="fav_added">تمت الاضافة الى قائمة المفضلة</string>
+	<string name="km">كم  </string>
+	<string name="email_sent">تم إرسال البريد الإلكتروني بنجاح.</string>
+	<string name="email_not_sent">لم يتم إرسال البريد الإلكتروني.</string>
+	<string name="inv_email">عنوان بريد إلكتروني غير صالح</string>
+	<string name="err_send_email">حدث خطأ أثناء إرسال البريد الإلكتروني</string>
+	<string name="pass_succ_updated">تم تحديث كلمة المرور بنجاح</string>
+	<string name="welcome">اهلا وسهلا</string>
+	<string name="your_acc_willbe_activated">سيتم تغعيل حسابك في أقرب وقت...</string>
+	<string name="user_not_found">لم يتم العثور على المستخدم!</string>
+	<string name="already_cer_emp">لديك بالفعل حساب مع هذه الشهادة</string>
+	<string name="warning">تنبيه</string>
+	<string name="new_storage">تخزين جديد</string>
+	<string name="pharmacy_name">اسم الصيدلة:</string>
+	<string name="go">بحث ◀</string>
+	<string name="search">بحث</string>
+	<string name="options">خيارات</string>
+	<string name="pharmacies">الصيدليات</string>
+	<string name="medicaments">الأدوية</string>
+	<string name="favorite_pharmacies">الصيدليات المفضلة</string>
+	<string name="favorite_medicaments">الأدوية المفضلة</string>
+	<string name="language_note">ملاحظة:  مع ضغط زر تأكيد  ، سيتم إعادة تشغيل التطبيق مع اللغة المطلوبة</string>
+	<string name="select_a_language">حدد اللغة:</string>
+	<string name="opned">مفتوحة</string>
+	<string name="storage_is_empty">التخزين فارغ !</string>
+	<string-array name="gender_array">
+		<item>ذكر</item>
+		<item>أنثى</item>
+	</string-array>
+    <string-array name="age_med">
+		<item>بالغ</item>
+		<item>في سن المراهقة</item>
+		<item>طفل</item>
+		<item>الجميع</item>
+
+	</string-array>
+    <string-array name="dosage_selection">
+        <item>مل غرام</item>
+        <item>غرام</item>
+        <item>مل مول</item>
+        <item>ميكرو غرام</item>
+        <item>لتر</item>
+        <item>سنتيلتر</item>
+        <item>مل لتر</item>
+        <item>ميكرو لتر</item>
+    </string-array>
+	<string-array name="type_medicament">
+		<item>أقراص</item>
+		<item>مسحوق للتناول عن طريق الفم في الكيس</item>
+		<item>شراب مركز</item>
+		<item>تحميلة</item>
+		<item>حقن</item>
+		<item>رذاذ الأنف</item>
+
+	</string-array>
+    <string name="to">إلى :</string>
+	<string name="ModifyStock">تعديل مخزون الدواء</string>
+	<string name="acc_emp">انشاء حساب موظف</string>
+	<string name="account_created_succ">تم انشاء الحساب بنجاح !</string>
+	<string name="conf_no_match">رمز التأكيد لا يتطابق</string>
+	<string name="help_to_ad_pharmacy">● اضغط لمدة لاضافة موقع الصيدلية \n●اضغط على المؤشر لتحريكه </string>
+	<string name="set_pharmacy_location">أدخل موقع الصيدلية</string>
+
+
+</resources>

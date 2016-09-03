@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/card_view"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="4dp"
+    >
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:id="@+id/myItem"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp">
+        <TextView
+            android:fontFamily="sans"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/pharmacy_title_item"
+            android:id="@+id/pharmacy_title"
+            android:padding="5dp"
+            />
+        <TextView
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=""
+            android:id="@+id/pharmacy_name"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/pharmacy_title"
+            android:layout_toEndOf="@+id/pharmacy_title" />
+        <TextView
+            android:fontFamily="sans"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/Adress_title_item"
+            android:id="@+id/pharmacy_adress"
+            android:padding="5dp"
+            android:layout_alignTop="@+id/pharmacy_real_adress"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=""
+            android:id="@+id/pharmacy_real_adress"
+            android:padding="5dp"
+            android:layout_below="@+id/pharmacy_name"
+            android:layout_alignLeft="@+id/pharmacy_name"
+            android:layout_alignStart="@+id/pharmacy_name" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <ToggleButton
+            android:id="@+id/fav_button"
+            android:textOn=""
+            android:textOff=""
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+            android:background="@drawable/fav_selector"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
+</FrameLayout>

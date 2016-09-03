@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srdeveloppement.atelier.mypharmacy.User.SearchPharmacy.SearchPharmacy">
+
+    <FrameLayout
+        android:id="@+id/listpharm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:layout_above="@+id/frameLayout7">
+        <TextView
+            android:id="@+id/no_item_found"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/no_item_found"/>
+        <android.support.v7.widget.RecyclerView
+            android:scrollbarThumbVertical="@drawable/sb_shape"
+            android:fastScrollEnabled="true"
+            android:id="@+id/search_pharmacy_list"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/shadowFooter"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/shadow_up"
+            />
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_gravity="bottom|center"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/frameLayout7">
+
+
+        <RelativeLayout
+            android:id="@+id/seekbarfooter"
+            android:layout_gravity="bottom|center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:isScrollContainer="true">
+            <FrameLayout
+                android:elevation="3dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/frameLayout3">
+                <Button
+                    android:layout_gravity="center"
+                    android:onClick="login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/go"
+                    android:textSize="18sp"
+                    android:id="@+id/done"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/white"
+                    android:background="?android:attr/selectableItemBackground"/>
+            </FrameLayout>
+
+            <TextView
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:text=""
+                android:id="@+id/km" />
+            <SeekBar
+                android:layoutDirection="rtl"
+                android:progress="9"
+                android:max="9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/km"
+                android:layout_toRightOf="@+id/frameLayout3"
+                />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

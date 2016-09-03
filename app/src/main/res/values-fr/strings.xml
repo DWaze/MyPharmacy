@@ -1,0 +1,257 @@
+
+<resources>
+
+	<string name="mPharmacien">Mes travailleurs</string>
+	<string name="mPharmacie">Ma pharmacie</string>
+	<string name="mParametre">Paramètres</string>
+	<string name="title_activity_home_fragment">Fragment de la maison</string>
+	<string name="confirm_dialog">Confirmer</string>
+	<string name="title_activity_ma_pharmacie">Ma pharmacie</string>
+	<string name="title_activity_maps">Carte</string>
+	<string name="app_name">Ma pharmacie</string>
+	<string name="action_settings">Paramètres</string>
+	<string name="title_activity_login">Login</string>
+	<string name="Welcome">Bienvenue sur MyPharmacy App</string>
+	<string name="select_type">Sélectionnez un type pour login ou sign-up</string>
+	<string name="create_acc">créer un compte</string>
+	<string name="acc_user">"Créer un compte d\'un client"</string>
+	<string name="acc_phrma">Créer un compte de pharmacien</string>
+	<string name="acc_emp">"Créer un compte d\'un travailleur"</string>
+	<string name="title_activity_user_nav">UserNav</string>
+	<string name="navigation_drawer_open">Tiroir de navigation ouverte</string>
+	<string name="navigation_drawer_close">Tiroir de navigation rapprochée</string>
+	<string name="title_activity_create_account">créer un compte</string>
+	<string name="title_activity_new_account">Nouveau compte</string>
+	<string name="hello_blank_fragment">Bonjour fragment principal</string>
+	<string name="searchPharmacy">Recherche pharmacie</string>
+	<string name="ModifyStock">Modifier le stock</string>
+	<string name="AddMed">Ajouter medicament</string>
+	<string name="searchMedicament">Recherche medicament</string>
+	<string name="lng">"Langue d'App"</string>
+	<string name="confirm">Confirmer</string>
+	<string name="En">English</string>
+	<string name="Fr">Français</string>
+	<string name="Ar">العربية</string>
+	<string name="user_name">"Nom d'utilisateur"</string>
+	<string name="password">Mot de passe</string>
+	<string name="et_name">Prenom</string>
+	<string name="et_surname">Nom</string>
+	<string name="conf_pass">Confirmer mot de passe</string>
+	<string name="email">Courrier</string>
+	<string name="radio_male">Mâle</string>
+	<string name="radio_female">Femelle</string>
+	<string name="gender">sexe</string>
+	<string name="date_of_birth">Date de naissance</string>
+	<string name="phone_num">Numéro de téléphone</string>
+	<string name="home_address">Adresse du domicile</string>
+	<string name="login">Login</string>
+	<string name="type_user">Client</string>
+	<string name="type_pharmacist">pharmacien</string>
+	<string name="type_pemployee">Travailleur</string>
+	<string name="add_pharmacy">Ajouter votre pharmacie</string>
+	<string name="title_activity_set_phatmacy">Carte</string>
+	<string name="set_pharmacy_location">Emplacement de la pharmacie</string>
+	<string name="pharmacy_title_item">Pharmacie :</string>
+	<string name="pharmacy_nearby">Pharmacie à proximité :</string>
+	<string name="Adress_title_item">Adresse :</string>
+	<string name="medicament_title_item">Médicament :</string>
+	<string name="dosage_title_item">"Dosage:"</string>
+	<string name="title_activity_pharmacy_location">Carte</string>
+	<string name="pharmacy_location">Emplacement de la pharmacie</string>
+	<string name="pharm_name">Nom de la pharmacie</string>
+	<string name="name_is_empty">Prenom est vide !</string>
+	<string name="adress_is_empty">"L'adresse est vide !"</string>
+	<string name="pharmacy_store_code">Code de magasin de pharmacie</string>
+	<string name="Password_is_empty">Mot de passe est vide !</string>
+	<string name="Confirm_Password_is_empty">Confirme mot de passe est vide !</string>
+	<string name="Email_is_empty">Email est vide !</string>
+	<string name="code_is_empty">Code de confirmation est vide !</string>
+	<string name="dateofbirth_is_empty">Date de naissance est vide !</string>
+	<string name="birth_place_empty">lieu de naissance est vide !</string>
+	<string name="HomeAdress_is_empty">Adresse du domicile est vide !</string>
+	<string name="storeCode_is_empty">Code de magasin de pharmacie est vide !</string>
+	<string name="Phone_number_is_empty">Numéro de téléphone est vide !</string>
+	<string name="pharmacy_map_error">Vous devez ajouter votre pharmacie dans la carte</string>
+	<string name="Confirm_password_error">Confirmer mot de passe vide ou ne correspond pas le mot de passe</string>
+	<string name="Username_is_empty">"Nom d'utilisateur est vide !"</string>
+	<string name="Surname_is_empty">Nom  est vide !</string>
+	<string name="account_created_succ">Compte créé avec succès !</string>
+	<string name="title_activity_employee_nav">Travailleur</string>
+	<string name="medicament_name">Nom de médicament</string>
+	<string name="dosage_med">Dosage</string>
+	<string name="age">Age</string>
+	<string name="type_med">Type de médicament</string>
+	<string name="med_name_is_empty">Nom du médicament est vide !</string>
+	<string name="dosage_is_empty">Dosage est vide</string>
+	<string name="age_title">Age :</string>
+	<string name="type_title">Type :</string>
+	<string name="storage_title">Stockage :</string>
+	<string name="title_activity_pharmasist_nav">Votre pharmacien Nav</string>
+	<string name="title_activity_ma_pharmacie_fragment">maPharmacieFragment</string>
+	<string name="modif_stock">Modifier le stock</string>
+	<string name="my_employees">Mes travailleurs</string>
+	<string name="title_activity_my__pharmacy">My_Pharmacy</string>
+	<string name="add_employee">Ajouter un travailleur</string>
+	<string name="emp_id_hint">ID de travailleur</string>
+	<string name="Detaille">Info</string>
+	<string name="NEmplyee">Nouveau travailleur</string>
+	<string name="message_active">Votre compte sera bientôt active</string>
+	<string name="work_time">Temps de travail</string>
+	<string name="from">De :</string>
+	<string name="to">à :</string>
+	<string name="addTiming">Ajouter le temps de travail</string>
+	<string name="pharmacy_timing">Calendrier de la pharmacie</string>
+	<string name="aviable_med">Médicaments disponibles :</string>
+	<string name="delete_pharmacy">Supprimer la pharmacie</string>
+	<string name="birth_place">Pays</string>
+	<string name="GPSAlertDialogMessage">"Message d'alerte"</string>
+	<string name="GPSAlertDialogTitle">Dialogue Alert</string>
+	<string name="permission_required_toast">"activer l'autorisation"</string>
+	<string name="location_permission_denied">"activer l'autorisation"</string>
+	<string name="permission_rationale_location">"activer l'autorisation"</string>
+	<string name="current_state">Pharmacie maintenant :</string>
+	<string name="closed">fermé</string>
+	<string name="opned">ouvert</string>
+	<string name="Sunday">Dimanche</string>
+	<string name="Monday">Lundi</string>
+	<string name="Tuesday">Mardi</string>
+	<string name="Wednesday">Mercredi</string>
+	<string name="Thursday">Jeudi</string>
+	<string name="Friday">Vendredi</string>
+	<string name="Saturday">Samedi</string>
+	<string name="p_state">Pharmacie maintenant :</string>
+	<string name="certification_id">ID de certificat</string>
+	<string name="MyProfile">Mon profil</string>
+	<string name="title_activity_profile">profil</string>
+	<string name="old_password">Mot de passe actuel</string>
+	<string name="new_password">Nouveau mot de passe</string>
+	<string name="conf_new_pass">Confirmer le nouveau mot de passe</string>
+	<string name="country">Pays</string>
+	<string name="newpss">Nouveau?</string>
+	<string name="x">Annuler</string>
+	<string name="wrong_pass">Mot de passe erroné !</string>
+	<string name="language">Langue</string>
+	<string name="logout">Logout</string>
+	<string name="user_exist">"Nom d'utilisateur existe déjà !"</string>
+	<string name="forget_password">Mot de passe oublié?</string>
+	<string name="reset_password">Réinitialiser mot de passe</string>
+	<string name="send_confirmation_code">On va envoyer un code de confirmation à votre adresse email :</string>
+	<string name="next">Suivant ▶</string>
+	<string name="confirmation_code">Code de confirmation</string>
+	<string name="step_1">Étape 1 :</string>
+	<string name="step_2">Étape 2 :</string>
+	<string name="step_3">Étape 3 :</string>
+	<string name="set_your_new_password">Définir votre nouveau mot de passe :</string>
+	<string name="get_confirmation_code_from_your_email">Obtenir le code de confirmation de votre email :</string>
+	<string name="email_no_account">Courrier non associé à un compte !</string>
+	<string name="conf_no_match">"Code de confirmation ne correspond pas"</string>
+	<string name="no_item_found">Non élément trouvé !</string>
+	<string name="add_new_employee">Ajouter un travailleur</string>
+	<string name="add">Ajouter</string>
+	<string name="phone_row">Téléphone :</string>
+	<string name="name_row">Prenom :</string>
+	<string name="id_row">ID :</string>
+	<string name="usrname_row">"Nom d'utilisateur :"</string>
+	<string name="surname_row">Nom :</string>
+	<string name="email_row">Courrier :</string>
+	<string name="homeadd_row">Adresse du domicile :</string>
+	<string name="id_diplome">"ID de diplôme :"</string>
+	<string name="you_want_delete_emp">Voulez-vous vraiment supprimer</string>
+	<string name="from_your_list">de votre liste des travailleurs ?</string>
+	<string name="wrng_pass">Mot de passe erroné !</string>
+	<string name="parm_deleted_succ">Pharmacie supprimé avec succès</string>
+	<string name="emp_delet_succ">Travailleur supprimé avec succès</string>
+	<string name="del_pharm_conf">Voulez-vous vraiment supprimer votre pharmacie ?</string>
+	<string name="emp_gender">"Sexe de rravailleur :"</string>
+	<string name="dir_gender">Directeur sexe :</string>
+	<string name="emp_id_empty">"ID de travailleur est vide !"</string>
+	<string name="emp_in_work">Travailleur déja au travail !</string>
+	<string name="no_pharm_found">Aucune pharmacie trouvée !</string>
+	<string name="med_up_succ">Médicament mis à jour avec succès !</string>
+	<string name="med_up_unsucc">Mise à jour medicament infructueuse !</string>
+	<string name="email_used">Courrier existe déjà !</string>
+	<string name="pharm_succ">"Pharmacie n\'est pas créé !"</string>
+	<string name="invalid_contact">Contrat de pharmacie non valide !</string>
+	<string name="acc_cret_succ">Compte créé avec succès !</string>
+	<string name="distance">Distance (véhicule) :</string>
+	<string name="duration">Durée :</string>
+	<string name="atleast_select_oneday">Veuillez sélectionner au moins 1 jour de travail !</string>
+	<string name="director_pharmacist_info">Info pharmacien directeur</string>
+	<string name="add_pharmacy_s_contract_id">Ajoutez le code de magasin</string>
+	<string name="add_pharmacy_location">"Ajouter l'emplacement de la pharmacie"</string>
+	<string name="add_pharmacy_timing">Ajouter le temps de travail</string>
+	<string name="location_done">Emplacement de pharmacie fait</string>
+	<string name="timing_done">Calendrier de pharmacie fait</string>
+	<string name="help_to_ad_pharmacy">"● Cliquer Longtement pour ajouter votre pharmacie.\n
+● tenir le pin pour changer l'emplacement."</string>
+	<string name="SERVER_ERROR">Impossible de se connecter au serveur !</string>
+	<string name="pharm_succ_created">Pharmacie créé avec succès !</string>
+	<string name="suv_med">Médicament ajouté avec succès</string>
+	<string name="u_hv_no_ph">"Vous n'avez aucun pharmacie !"</string>
+	<string name="call_perm">"Désolé appel impossible !!! Autorisation refusée"</string>
+	<string name="no_ph_please_wait">"Aucune pharmacie trouvée, attendez s\'il vous plaît  !"</string>
+	<string name="wait_conf_ph">Veuillez attendre la confirmation de la nouvelle pharmacie !</string>
+	<string name="ph_no_valid">Pharmacie non validé encore !</string>
+	<string name="ph_no_exist">"Pharmacien\'est existe pas !"</string>
+	<string name="done">fait !</string>
+	<string name="editlocationfab">"Appuyez sur edit fab pour modifier l'emplacement"</string>
+	<string name="ed_saved">Modifications enregistrées avec succès</string>
+	<string name="no_ph_found_createone">"Aucune pharmacie trouvée, créer une s\'il vous plaît !"</string>
+	<string name="activ_location_service">"S\'il vous plaît activer le service d\'emplacement!!"</string>
+	<string name="fav_removed">Favori enlevé avec succès!!</string>
+	<string name="fav_added">Favori ajouté avec succès !</string>
+	<string name="km"> Km </string>
+	<string name="email_sent">Courrier a été envoyé avec succès.</string>
+	<string name="email_not_sent">Courrier n\'a pas envoyé.</string>
+	<string name="inv_email">Adresse email invalide</string>
+	<string name="err_send_email">"Erreur s'est produite lors de l'envoi de courriel"</string>
+	<string name="pass_succ_updated">Mot de passe mis à jour</string>
+	<string name="welcome">Bienvenue</string>
+	<string name="your_acc_willbe_activated">Votre compte sera activé عltérieurement ...</string>
+	<string name="user_not_found">Utilisateur non trouvé !</string>
+	<string name="already_cer_emp">Vous avez déjà un compte avec cette certificat</string>
+	<string name="warning">Attention !</string>
+	<string name="new_storage">Nouveau stockage</string>
+	<string name="pharmacy_name">Nom de la pharmacie :</string>
+	<string name="go">Aller ▶</string>
+	<string name="search">Recherche</string>
+	<string name="options">Paramètres</string>
+	<string name="pharmacies">Pharmacies</string>
+	<string name="medicaments">Medicaments</string>
+	<string name="favorite_pharmacies">Pharmacies préférées</string>
+	<string name="favorite_medicaments">Médicaments préférés</string>
+	<string name="language_note">"Remarque : clique du confirmer bouton sera redémarrer l\'application avec la langue de votre choix"</string>
+	<string name="select_a_language">Sélectionnez une langue :</string>
+	<string name="storage_is_empty">Stock est vide!</string>
+	<string-array name="dosage_selection">
+		<item>mG</item>
+		<item>G</item>
+		<item>mmol</item>
+		<item>µG</item>
+		<item>L</item>
+		<item>cL</item>
+		<item>mL</item>
+		<item>µL</item>
+	</string-array>
+	<string-array name="age_med">
+		<item>Adult</item>
+		<item>Adolescent</item>
+		<item>Enfant</item>
+		<item>Tous</item>
+
+	</string-array>
+	<string-array name="type_medicament">
+		<item>Pilules</item>
+		<item>Poudre pour suspension buvable en sachet</item>
+		<item>Sirop</item>
+		<item>Suppositoire</item>
+		<item>Injections</item>
+		<item>Suspension pour pulvérisation nasale</item>
+
+	</string-array>
+
+	<string-array name="gender_array">
+		<item>Mâle</item>
+		<item>Femelle</item>
+	</string-array>
+</resources>

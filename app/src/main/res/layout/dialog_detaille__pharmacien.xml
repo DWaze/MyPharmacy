@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_dialog"
+    android:orientation="vertical"
+    tools:context="com.srdeveloppement.atelier.mypharmacy.LanguageSettings">
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:lines="1"
+            android:layout_marginRight="80dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:id="@+id/text_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Detaille"
+            android:textColor="#ffffff"/>
+        <!--button inside frame layout to make ripple effect back, do not change-->
+        <FrameLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/close_shape">
+            <Button
+                android:id="@+id/x3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/selectableItemBackground"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/call_shape">
+            <Button
+                android:id="@+id/call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/selectableItemBackground"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <!--content-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="6dp" >
+
+        <!--button inside frame layout to make ripple effect back ,do not change-->
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/IDPersson"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usrname_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/surname_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/prenom"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/Telephone2"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homeadd_row" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/Address"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emp_gender" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/Gender"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:textSize="16sp"
+                android:fontFamily="sans"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_diplome" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:id="@+id/IDDiplome_Reconnaisance2"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

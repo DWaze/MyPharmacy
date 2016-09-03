@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="alpha_colorAccent">#80FF9800</color>
+    <color name="grey_bg">#E0E0E0</color>
+    <color name="dialogColor">#ffffff</color>
+    <color name="white_alpha">#95ffffff</color>
+    <color name="grey_txt">#616161</color>
+    <color name="disabeled_txt">#38000000</color>
+    <color name="grey_bg2">#F5F5F5</color>
+    <color name="mytransparent">#00ffffff</color>
+
+
+
+
+
+<!--////////////////////////// Material Edit Text///////////////////////////-->
+    <color name="white">#FFFFFF</color>
+    <color name="CursorColor">@color/colorPrimary</color>
+    <color name="errorColor">#f44336</color>
+    <color name="highlightColor">#B6B6B6</color>
+    <color name="primaryTextColor" >#212121</color>
+    <color name="secondaryTextColor">#727272</color>
+    <color name="iconsColor">#212121</color>
+    <color name="selectColor">#2196F3</color>
+    <color name="dividerColor">#B6B6B6</color>
+</resources>

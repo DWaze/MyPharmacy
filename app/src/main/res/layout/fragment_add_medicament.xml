@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="0dp"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.srdeveloppement.atelier.mypharmacy.Employee.AddMedicament.AddMedicament"
+android:fillViewport="true"
+    android:id="@+id/FLaddMed"
+android:orientation="horizontal">
+<ScrollView
+    android:fillViewport="true"
+    android:id="@+id/Scroll"
+    android:isScrollContainer="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/upper"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@color/colorPrimary"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/medicament_name"
+                android:textSize="14sp"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:scrollHorizontally="true"
+                android:digits=" AZERTYUIOPQSDFGHJKLMWXCVBNabcdefghijklmnopqrstuvwxyz0123456789"
+                app:met_clearButton="true"
+                app:met_maxCharacters="30"
+                android:id="@+id/med_Name"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_primaryColor="@color/white"
+                app:met_textColor="@color/white"
+                android:hint=""
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                app:met_textColorHint="#99ffffff"
+                app:met_floatingLabel="none"
+                app:met_floatingLabelAlwaysShown="true"
+                app:met_floatingLabelTextColor="@color/white"
+                app:met_helperText=""
+                app:met_helperTextColor="@color/white"
+                app:met_underlineColor="@color/white"
+                app:met_baseColor="@color/white"
+                app:met_errorColor="#F44336"
+                app:met_singleLineEllipsis="true"
+                android:textCursorDrawable="@drawable/text_cursor_white"
+                />
+
+
+            <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView">
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                app:met_maxCharacters="20"
+                                android:textSize="24sp"
+                                android:id="@+id/med_Dosage"
+                                android:fontFamily="sans-serif-light"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:met_primaryColor="@color/white"
+                                app:met_textColor="@color/white"
+                                android:hint=""
+                                android:inputType="numberDecimal"
+                                app:met_textColorHint="#99ffffff"
+                                app:met_floatingLabel="none"
+                                app:met_floatingLabelTextColor="@color/white"
+                                app:met_helperText=""
+                                app:met_helperTextColor="@color/white"
+                                app:met_underlineColor="@color/white"
+                                app:met_baseColor="@color/white"
+                                app:met_errorColor="#F44336"
+                                app:met_singleLineEllipsis="true"
+                                android:textCursorDrawable="@drawable/text_cursor_white"
+                                android:layout_below="@+id/textView"
+                                />
+
+                    <Spinner
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/type_spinner"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dosage_med"
+                    android:textSize="14sp"
+                    android:id="@+id/textView" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <ImageView
+                    android:layout_marginLeft="26dp"
+                    android:layout_gravity="left"
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/shadow_left"
+                    />
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="26dp"
+                    android:layout_gravity="right"
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/shadow_right"
+                    />
+                <LinearLayout
+                    android:paddingBottom="76dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:id="@+id/Lower"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:paddingTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Age">
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:editable="false"
+                                android:focusable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:met_primaryColor="@color/colorAccent"
+                                app:met_textColor="#000000"
+                                android:inputType="textPassword"
+                                app:met_textColorHint="#40000000"
+                                app:met_floatingLabel="highlight"
+                                app:met_floatingLabelTextColor="#000000"
+                                app:met_helperText=""
+                                app:met_helperTextColor="#ccc"
+                                app:met_underlineColor="@color/colorAccent"
+                                app:met_baseColor="@color/colorAccent"
+                                app:met_errorColor="#F44336"
+                                app:met_singleLineEllipsis="true"
+                                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                                />
+
+                            <Spinner
+                                android:singleLine="true"
+                                android:ellipsize="end"
+                                android:paddingBottom="20dp"
+                                android:id="@+id/age_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center_vertical" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/age"
+                            android:textSize="14sp"
+                            android:id="@+id/Age" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/typeMed">
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:editable="false"
+                                android:focusable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:met_primaryColor="@color/colorAccent"
+                                app:met_textColor="#000000"
+                                android:inputType="textPassword"
+                                app:met_textColorHint="#40000000"
+                                app:met_floatingLabel="highlight"
+                                app:met_floatingLabelTextColor="#000000"
+                                app:met_helperText=""
+                                app:met_helperTextColor="#ccc"
+                                app:met_underlineColor="@color/colorAccent"
+                                app:met_baseColor="@color/colorAccent"
+                                app:met_errorColor="#F44336"
+                                app:met_singleLineEllipsis="true"
+                                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                                />
+
+                            <Spinner
+                                android:singleLine="true"
+                                android:ellipsize="end"
+                                android:paddingBottom="20dp"
+                                android:id="@+id/type_med_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|center_vertical" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/type_med"
+                            android:textSize="14sp"
+                            android:id="@+id/typeMed" />
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shadow_down"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>
+<FrameLayout
+    android:layout_gravity="bottom|center"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    >
+    <ImageView
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="62dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shadow_up"
+        />
+
+    <FrameLayout
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_bg"
+        android:isScrollContainer="true">
+        <Button
+            android:id="@+id/createAcc"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textColor="@color/grey_txt"
+            android:text="@string/confirm"/>
+    </FrameLayout>
+</FrameLayout>
+
+</FrameLayout>

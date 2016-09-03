@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".Home"
+        tools:showIn="@layout/home_app_bar"
+        android:fillViewport="true"
+        android:id="@+id/Scroll"
+        android:isScrollContainer="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:isScrollContainer="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:isScrollContainer="true"
+            android:id="@+id/upper"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_bar_dim"
+            android:background="@color/colorPrimary"
+
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="#90000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Welcome"
+                    android:textSize="18sp"/>
+
+
+
+
+
+
+            <TextView
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/select_type"
+                android:textSize="16sp"/>
+
+                <RadioGroup
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@+id/radioUsers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    >
+                    <RadioButton
+                        android:background="#00ffffff"
+                        android:fontFamily="sans-serif-light"
+                        android:clickable="false"
+                        android:longClickable="true"
+                        android:layout_weight="0.33"
+                        android:drawablePadding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="left"
+                        android:drawableTop="@drawable/roundbutton_usr"
+                        android:button="@android:color/transparent"
+                        android:id="@+id/r0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type_user"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:onClick="onRadioButtonClicked"
+                        android:checked="true"
+                        />
+
+                    <RadioButton
+                        android:background="#00ffffff"
+                        android:fontFamily="sans-serif-light"
+                        android:longClickable="true"
+                        android:layout_weight="0.33"
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+                        android:drawableTop="@drawable/roundbutton_ps"
+                        android:button="@android:color/transparent"
+                        android:id="@+id/r1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type_pharmacist"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:onClick="onRadioButtonClicked"
+                        />
+                    <RadioButton
+                        android:background="#00ffffff"
+                        android:fontFamily="sans-serif-light"
+                        android:longClickable="true"
+                        android:layout_weight="0.33"
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left"
+                        android:drawableTop="@drawable/roundbutton_tr"
+                        android:button="@android:color/transparent"
+                        android:id="@+id/r2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type_pemployee"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:onClick="onRadioButtonClicked"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+
+        <RelativeLayout
+            android:isScrollContainer="true"
+            android:layout_marginTop="216dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_bg2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                    >
+
+
+                <ImageView
+                    android:layout_marginLeft="26dp"
+                    android:layout_gravity="left"
+                    android:layout_width="10dp"
+                    android:layout_height="380dp"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/shadow_left"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true" />
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="26dp"
+                    android:layout_gravity="right"
+                    android:layout_width="10dp"
+                    android:layout_height="380dp"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/shadow_right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true" />
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:id="@+id/Lower"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        app:met_clearButton="true"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/User_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:met_primaryColor="@color/colorPrimary"
+                        app:met_textColor="#000000"
+                        android:hint="@string/user_name"
+                        app:met_textColorHint="#40000000"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelTextColor="#000000"
+                        app:met_helperText=""
+                        app:met_helperTextColor="#ccc"
+                        app:met_underlineColor="@color/colorPrimary"
+                        app:met_baseColor="@color/colorPrimary"
+                        app:met_errorColor="#F44336"
+                        app:met_singleLineEllipsis="true"
+                        android:textCursorDrawable="@drawable/text_cursor_cyan"
+                        />
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        app:met_clearButton="true"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/Password_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:met_primaryColor="@color/colorPrimary"
+                        app:met_textColor="#000000"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        app:met_textColorHint="#40000000"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelTextColor="#000000"
+                        app:met_helperText=""
+                        app:met_helperTextColor="#ccc"
+                        app:met_underlineColor="@color/colorPrimary"
+                        app:met_baseColor="@color/colorPrimary"
+                        app:met_errorColor="#F44336"
+                        app:met_singleLineEllipsis="true"
+                        android:textCursorDrawable="@drawable/text_cursor_cyan"
+                        />
+                    <FrameLayout
+                        android:elevation="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mybutton">
+                    <Button
+                        android:onClick="login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login"
+                        android:id="@+id/login"
+
+                        android:textColor="@color/white"
+                        android:background="?android:attr/selectableItemBackground"/>
+                    </FrameLayout>
+                    <FrameLayout
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparent">
+                    <Button
+                        android:id="@+id/forget_password"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:elevation="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forget_password"
+                        android:gravity="center"
+                        android:textAlignment="gravity"
+                        android:background="?android:attr/selectableItemBackground"/>
+                </FrameLayout>
+                    <FrameLayout
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/transparent">
+                        <Button
+                            android:elevation="0dp"
+                            android:id="@+id/langue"
+                            android:textAllCaps="true"
+                            android:alpha="0.6"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="26dp"
+                            android:text="@string/enh"
+                            android:gravity="center"
+                            android:textAlignment="gravity"
+                            android:background="?android:attr/selectableItemBackground"/>
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shadow_down"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+
+

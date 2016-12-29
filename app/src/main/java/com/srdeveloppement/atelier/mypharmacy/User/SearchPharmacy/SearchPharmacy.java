@@ -96,8 +96,8 @@ public class SearchPharmacy extends Fragment implements SearchView.OnQueryTextLi
             shadowFooter.setVisibility(View.GONE);
         }
 
-
-       mySeekbar.setProgress(10);
+        /*transforming the value of the seek bar to kilometer values*/
+        mySeekbar.setProgress(10);
         Kelometrage.setText(10 +" "+ getResources().getString(R.string.km));
         mySeekbar.getProgressDrawable().setColorFilter(new PorterDuffColorFilter(getResources().getColor(R.color.colorAccent), PorterDuff.Mode.SRC_IN));
         mySeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {

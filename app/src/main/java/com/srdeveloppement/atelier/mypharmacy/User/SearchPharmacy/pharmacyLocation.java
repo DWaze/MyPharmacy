@@ -162,7 +162,7 @@ public class pharmacyLocation extends FragmentActivity implements OnMapReadyCall
                         pol.remove();
                     }
                     if(mPharmacie!=null){
-                        executeRoot root = new executeRoot();
+                        ExecuteRoot root = new ExecuteRoot();
                         root.execute(mPharmacie.get(0).getLatitude(),mPharmacie.get(0).getLangitude());
                     }
 
@@ -296,6 +296,8 @@ public class pharmacyLocation extends FragmentActivity implements OnMapReadyCall
             mGoogleApiClient.disconnect();
         }
     }
+
+    /* Getting the current location */
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
@@ -478,7 +480,7 @@ public class pharmacyLocation extends FragmentActivity implements OnMapReadyCall
             }
         }}
 
-    public class executeRoot extends GetJsonRouteData {
+    public class ExecuteRoot extends GetJsonRouteData {
 
 
         public void execute(double Destlatitude,double Destlongitude){

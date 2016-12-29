@@ -22,6 +22,9 @@ public class GetJsonRouteData extends GetRoutData {
     public GetJsonRouteData() {
     }
 
+    /*Fetching teh distance and the duration from the JSON Google server result*/
+
+
     public List<LatLng> getSteps() {
         return list;
     }

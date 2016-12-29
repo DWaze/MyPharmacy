@@ -157,7 +157,7 @@ public class pharmacyLocation extends FragmentActivity implements OnMapReadyCall
         litinirair.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-                if (isChecked) {
+                if (isChecked) {     /*removing the polilynes to draw others */
                     if(pol!=null){
                         pol.remove();
                     }
@@ -511,6 +511,7 @@ public class pharmacyLocation extends FragmentActivity implements OnMapReadyCall
                     options.add(point);
                 }
                 pol=mMap.addPolyline(options);
+                    /*Saving Polyline to remove them later*/
                 }
             }
         }
